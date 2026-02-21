@@ -41,8 +41,8 @@ export default function App() {
         (url)=>fetch(url).then(res=>res.json())
     )
         console.log(data);
-        if(!data) return <h2>ITS LOADING MOFO</h2>
-        if(error) return <h2>YIKES</h2>
+        if(!data) return <h2>Loading...</h2>
+        if(error) return <h2>Error!</h2>
     return(
         <ParentDiv>
             <Header><h1><i>Rick and Morty</i> Directory</h1></Header>
