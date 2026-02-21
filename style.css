@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body { /* Keeps consistent background color throughout entire page, even if content is small */
+    background-color: #002200;
+}
